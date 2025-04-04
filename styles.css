@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+body {
+    background-color: rgb(243, 243, 176);
+    font-family: "Playfair Display", serif;
+    font-size: 17px;
+    margin: 500;
+    padding: 5000;
+  }
+header{
+    background-color: rgb(245, 221, 113);
+    color: rgb(128, 62, 18);
+    text-align: center;
+    padding: 25px;
+}
+
+h1{
+    font-family: "Rubik Mono One", monospace;
+}
+p{
+   
+    color: rgb(167, 86, 33);
+}
+.ReceitaPanqueca{
+
+    color:  rgb(122, 56, 12);
+    padding: 30px;
+    margin: 30px;
+    width: 50%;
+    border: 10px solid rgb(245, 221, 113);
+    border-radius: 15px;
+}
+
+.ReceitaPanqueca li{
+    font-size: 1.1em;
+    margin: 5px;
+}
+img {
+    position:absolute;
+    right: 40px; 
+    top: 80%; 
+    transform: translateY(-50%); 
+    width: 500px;
+    height: auto;
+    border: 5px solid rgb(245, 221, 113);
+    border-radius: 10px;
+}
